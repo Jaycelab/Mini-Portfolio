@@ -3,15 +3,17 @@ import Link from 'next/link'
 import Social from '@/components/social'
 import Photo from '@/components/photo'
 
+
 const Hero = () => {
   return (
     <section className='w-f pt-40'>
       <div className='container mx-auto h-full'>
         <div className='flex flex-col items-center justify-between gap-10 xl:flex-row xl:pt-8'>
           {/* text */}
-
+      
           <div className='text-center xl:text-left'>
             <span>Hello World! </span>
+
             <h1 className='text-[40px] font-bold capitalize leading-[3rem]'>
               Mauris <br />
               <span className='under-line'>Suscipit</span>

@@ -42,7 +42,7 @@ const Contact = () => {
           <textarea
             name='message'
             id='message'
-            placeholder='Message '
+            placeholder='Message (this is not a valid message form yet)'
             className='focus:border-blue/25 mb-12 w-full resize-none border-b border-white/25 bg-transparent py-12 outline-none transition-all placeholder:text-white/50'
           ></textarea>
           <button className='w-50 bg-blue hover:bg-lighted hover:text-secondary mt-12 flex items-center justify-center gap-x-2 rounded-full px-4 py-3 transition-all duration-300 hover:transition-all'>
