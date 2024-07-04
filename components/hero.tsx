@@ -13,7 +13,7 @@ const Hero = () => {
           </div>
           <div className='text-center xl:text-left'>
             {/* some animated text*/}
-            <span className='text-[20px]'>Hello World! </span>
+            <span className='text-[20px] text-accent/70'>Animated Text</span>
             {/* name?*/}
             <h1 className='text-ac text-[40px] font-bold capitalize leading-[3rem]'>
               Mauris <br />
@@ -33,7 +33,7 @@ const Hero = () => {
                 <Link
                   href='mailto:jason.json@hotmail.com'
                   target='_blank'
-                  className='border-blue text-blue hover:bg-blue/80 hover:text-lighted flex items-center space-x-2 rounded-full border-2 px-6 py-3 font-medium uppercase transition-all'
+                  className='/80 hover:text-lighted flex items-center space-x-2 rounded-full border-2 border-red-700 px-6 py-3 font-medium uppercase text-white transition-all hover:bg-red-700'
                 >
                   <span className='text-sm'>Get in touch</span>
                   <Mail className='size-5' />

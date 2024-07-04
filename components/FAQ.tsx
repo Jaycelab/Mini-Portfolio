@@ -80,7 +80,7 @@ export const tech = [
 
 const FAQ = () => {
   return (
-    <section className='bg-secondary pb-20 pt-36' id='FAQ'>
+    <section className='bg-primary p-36' id='FAQ'>
       <div className='container sm:px-2'>
         <div>
           <h1 className='text-[40px] font-bold uppercase leading-[3rem]'>
@@ -105,7 +105,7 @@ const FAQ = () => {
                   <AccordionTrigger className='mx-2 text-xl font-medium hover:no-underline'>
                     {qst.qs}
                   </AccordionTrigger>
-                  <AccordionContent className='px-2 pt-4 text-[16px] leading-6'>
+                  <AccordionContent className='bg-accent/70 px-2 pt-4 text-[16px] leading-6'>
                     {qst.answer}
                   </AccordionContent>
                 </AccordionItem>
@@ -121,7 +121,7 @@ const FAQ = () => {
             variants={slideVariant}
             initial='initial'
             animate='animate'
-            className='center flex space-x-12'
+            className='center flex space-x-12 bg-primary'
           >
             {tech.map(item => (
               <Image

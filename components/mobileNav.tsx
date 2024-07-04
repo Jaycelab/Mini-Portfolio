@@ -27,7 +27,7 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className='flex items-center'>
-        <Menu className='text-blue size-8' />
+        <Menu className='size-10 text-accent' />
       </SheetTrigger>
       <SheetContent>
         <div className='mb-40 mt-32 flex items-center justify-center'>
@@ -42,7 +42,7 @@ const MobileNav = () => {
               key={index}
               className='text-lg font-medium capitalize'
             >
-              <span className='hover:border-blue hover:text-blue pb-2 transition-all hover:border-b-2'>
+              <span className='pb-2 transition-all hover:border-b-2 hover:border-red-700 hover:text-accent'>
                 {item.name}
               </span>
             </Link>

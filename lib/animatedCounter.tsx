@@ -28,8 +28,9 @@ export default function AnimatedCounter({
 
     element.textContent = String(from)
     const controls = animate(from, to, {
-      duration: 1.5,
+      duration: 3.5,
       ease: 'easeOut',
+
       delay: 0.6,
       ...animationOptions,
       onUpdate(value) {

@@ -25,28 +25,28 @@ const Contact = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: true, amount: 0.8 }}
-          className='bg-secondary/80 flex max-w-3xl flex-1 flex-col items-start gap-y-8 rounded-md p-10'
+          className='flex max-w-3xl flex-1 flex-col items-start gap-y-8 rounded-md bg-black p-10'
         >
           <input
             type='text'
             placeholder='Name '
             required
-            className='focus:border-blue/25 w-full border-b border-white/25 bg-transparent py-3 outline-none transition-all placeholder:text-white/50'
+            className='focus:border-blue/25 w-full border-b-2 border-white/90 bg-accent/70 p-3 outline-none transition-all placeholder:text-white/90 focus:border-black'
           />
           <input
             type='text'
             placeholder='Subject '
             required
-            className='focus:border-blue/25 w-full border-b border-white/25 bg-transparent py-3 outline-none transition-all placeholder:text-white/50'
+            className='focus:border-blue/25 w-full border-b-2 border-white/90 bg-accent/70 p-3 outline-none transition-all placeholder:text-white/90 focus:border-black'
           />
           <textarea
             name='message'
             id='message'
-            placeholder='Message (this is not a valid message form yet)'
-            className='focus:border-blue/25 mb-12 w-full resize-none border-b border-white/25 bg-transparent py-12 outline-none transition-all placeholder:text-white/50'
+            placeholder='Message (not a valid message form yet)'
+            className='h-24 w-full border-b-2 border-white/90 bg-accent/70 p-3 outline-none transition-all placeholder:text-white/90 focus:border-black'
           ></textarea>
-          <button className='w-50 bg-blue hover:bg-lighted hover:text-secondary mt-12 flex items-center justify-center gap-x-2 rounded-full px-4 py-3 transition-all duration-300 hover:transition-all'>
-            <p className='text-xl capitalize'> Send Messsage</p>
+          <button className='w-50 mx-auto mt-12 flex items-center justify-center gap-x-2 rounded-full px-4 py-3 outline transition-all duration-300 hover:bg-accent/70 hover:text-white/90 hover:transition-all'>
+            <p className='text-xl capitalize'>Send Messsage</p>
             <MessageSquareMore className='h-6 w-6' />
           </button>
         </motion.form>

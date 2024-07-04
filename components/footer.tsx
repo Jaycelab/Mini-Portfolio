@@ -8,15 +8,15 @@ import Social from '@/components/social'
 const Footer = () => {
   return (
     <section className='bg-secondary py-8'>
-      <div className='container flex flex-col items-center justify-between gap-4 xl:flex-row'>
-        <p className='text-xl font-semibold uppercase'>
-          {' '}
-          ® 2024 <span className='under-line'>Jayce</span>lab
-        </p>
+      <div className='container flex flex-col items-center justify-between gap-3 xl:flex-row'>
         <Link to='/' spy={true} smooth={true} className='cursor-pointer'>
           <Image src='/logo.png' width={54.08} height={336.65} alt='logo' />
         </Link>
         <Social />
+        <p className='text-l font-semibold uppercase'>
+          {' '}
+          ® 2024 <span className='under-line'>Jayce</span>lab
+        </p>
       </div>
     </section>
   )
