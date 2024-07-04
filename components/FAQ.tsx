@@ -80,7 +80,7 @@ export const tech = [
 
 const FAQ = () => {
   return (
-    <section className='bg-primary p-36' id='FAQ'>
+    <section className='bg-primary pb-20 pt-36' id='FAQ'>
       <div className='container sm:px-2'>
         <div>
           <h1 className='text-[40px] font-bold uppercase leading-[3rem]'>
