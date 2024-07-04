@@ -29,7 +29,7 @@ const Social = () => {
           target='_blank'
           href={item.path}
           key={index}
-          className='duration-3000 border-blue text-blue hover:bg-blue/20 flex size-10 items-center justify-center rounded-full border-2 hover:transition-all'
+          className='duration-3000 flex size-10 items-center justify-center rounded-full border-2 border-white text-red-700 hover:bg-red-800 hover:transition-all'
         >
           {item.icon}
         </Link>

@@ -5,7 +5,7 @@ import AnimatedCounter from '../lib/animatedCounter'
 
 const Services = () => {
   return (
-    <section id='services' className='z-30 -translate-y-1 bg-secondary'>
+    <section id='services' className='bg-secondary z-30 -translate-y-1'>
       <div className='container w-full py-[100px] lg:py-[200px]'>
         <div className='flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0'>
           <motion.div
@@ -25,18 +25,21 @@ const Services = () => {
             </p>
             <div className='flex justify-between space-x-4 py-8'>
               <div className='flex flex-col items-center justify-center'>
-                <p className='text-lg font-semibold uppercase'> Projects</p>
-                <p className='text-[36px] font-bold text-blue'>
+                <p className='text-lg font-semibold uppercase text-accent'>
+                  {' '}
+                  Projects
+                </p>
+                <p className='text-[36px] font-bold'>
                   {' '}
                   + <AnimatedCounter from={0} to={69} />
                 </p>
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <p className='text-lg font-semibold uppercase'>
+                <p className='text-lg font-semibold uppercase text-accent'>
                   {' '}
-                  Counter Placeholder
+                  Counter
                 </p>
-                <p className='text-[36px] font-bold text-blue'>
+                <p className='text-[36px] font-bold'>
                   <AnimatedCounter from={0} to={420} />
                 </p>
               </div>
@@ -50,10 +53,10 @@ const Services = () => {
             className='flex h-full flex-col gap-8'
           >
             <div className='flex items-center space-x-6 bg-primary p-4'>
-              <p className='text-6xl font-bold text-blue'>01</p>
+              <p className='text-6xl font-bold text-accent'>01</p>
               <div>
                 <h2 className='mb-2 text-2xl font-bold'>
-                  Front-End development
+                  Front-End Development
                 </h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
@@ -63,7 +66,7 @@ const Services = () => {
               </div>
             </div>
             <div className='flex items-center space-x-6 bg-primary p-4'>
-              <p className='text-6xl font-bold text-blue'>02</p>
+              <p className='text-6xl font-bold text-accent'>02</p>
               <div>
                 <h2 className='mb-2 text-2xl font-bold'>
                   Back-End Development

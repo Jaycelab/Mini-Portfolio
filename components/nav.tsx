@@ -30,7 +30,7 @@ const Nav = () => {
           key={index}
           className='cursor-pointer text-lg font-medium capitalize'
         >
-          <span className='hover:border-blue hover:text-blue pb-2 transition-all hover:border-b-2'>
+          <span className='pb-2 transition-all hover:border-b-2 hover:border-red-700 hover:text-red-700'>
             {item.name}
           </span>
         </Link>

@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-primary bg-primary leading-loose text-white;
+    @apply bg-primary font-primary leading-loose text-white;
   }
   span {
     position: relative;

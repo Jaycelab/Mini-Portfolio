@@ -75,18 +75,6 @@ export const tech = [
     width: 54.98,
     height: 48.73,
     alt: 'javascript'
-  },
-  {
-    src: '/tech/mongodb.svg',
-    width: 54.98,
-    height: 48.73,
-    alt: 'mongo'
-  },
-  {
-    src: '/tech/tailwind.svg',
-    width: 54.98,
-    height: 48.73,
-    alt: 'tailwind'
   }
 ]
 
@@ -96,7 +84,7 @@ const FAQ = () => {
       <div className='container sm:px-2'>
         <div>
           <h1 className='text-[40px] font-bold uppercase leading-[3rem]'>
-            Frequently <br /> <span className='under-line'>asked</span>
+            Frequently <br /> <span className='under-line'>Asked</span>
           </h1>
         </div>
         <motion.div

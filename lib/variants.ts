@@ -19,4 +19,3 @@ export default function FadeIn(direction: Direction, delay: number) {
     }
   }
 }
-
