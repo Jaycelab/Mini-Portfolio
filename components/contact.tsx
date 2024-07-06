@@ -46,7 +46,7 @@ const Contact = () => {
             className='h-24 w-full border-b-2 border-white/90 bg-accent/70 p-3 outline-none transition-all placeholder:text-white/90 focus:border-black'
           ></textarea>
           <button className='w-50 mx-auto mt-12 flex items-center justify-center gap-x-2 rounded-full px-4 py-3 outline transition-all duration-300 hover:bg-accent/70 hover:text-white/90 hover:transition-all'>
-            <p className='text-l capitalize'>Send Messsage</p>
+            <p className='p-0 text-base capitalize'>Send Messsage</p>
             <MessageSquareMore className='h-4 w-4' />
           </button>
         </motion.form>
