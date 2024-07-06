@@ -13,19 +13,17 @@ const Hero = () => {
           </div>
           <div className='text-center xl:text-left'>
             {/* some animated text*/}
-            <span className='text-[20px] text-accent/70'>Animated Text</span>
+            <span className='text-[20px] text-accent/90'>Animated Text</span>
             {/* name?*/}
             <h1 className='text-ac text-[40px] font-bold capitalize leading-[3rem]'>
               Mauris <br />
-              <span className='under-line text-a'>Suscipit</span>
+              <span className='under-line'>Suscipit</span>
             </h1>
             <div className='py-8'>
               {/* hero heading*/}
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                tristique tincidunt velit, in elementum dolor tempus quis.
-                Mauris viverra eros eu felis rutrum luctus. Phasellus et
-                fermentum lorem.
+                tristique tincidunt velit.
               </p>
             </div>
             <div className='flex flex-col items-center justify-center xl:flex-row xl:justify-start xl:space-x-8'>

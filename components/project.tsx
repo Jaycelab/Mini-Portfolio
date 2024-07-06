@@ -29,10 +29,10 @@ export const Project = ({
         scale: scaleProgress,
         opacity: opacityProgress
       }}
-      className='my-auto flex flex-col items-center rounded-3xl bg-accent/70 p-6 text-white xl:flex-row xl:justify-between'
+      className='flex flex-col items-center rounded-3xl bg-accent/90 p-4 xl:flex-row xl:justify-between'
     >
       <div className='pb-[60px]'>
-        <h5 className='text-lg font-medium capitalize'>{category}</h5>
+        <h5 className='text-sm font-medium capitalize'>{category}</h5>
         <h3 className='mt-4 text-[40px] font-light'>{title}</h3>
         <p className='mb-4 mt-4 max-w-xl'>{description}</p>
       </div>

@@ -27,7 +27,7 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className='flex items-center'>
-        <Menu className='size-10 text-accent' />
+        <Menu className='size-10 text-accent/90' />
       </SheetTrigger>
       <SheetContent>
         <div className='mb-40 mt-32 flex items-center justify-center'>

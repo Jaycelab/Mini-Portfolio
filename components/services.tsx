@@ -6,7 +6,7 @@ import AnimatedCounter from '../lib/animatedCounter'
 const Services = () => {
   return (
     <section id='services' className='m-50 z-30 -translate-y-1 bg-primary'>
-      <div className='container w-full py-[100px] lg:py-[200px]'>
+      <div className='container w-full py-[100px] lg:py-[150px]'>
         <div className='flex flex-col justify-between gap-12 px-2 pt-20 lg:flex-row lg:px-0'>
           <motion.div
             variants={FadeIn('right', 0.2)}
@@ -27,7 +27,7 @@ const Services = () => {
             <div className='flex justify-between space-x-4 py-8'>
               <div className='flex flex-col items-center justify-center'>
                 <p className='text-lg font-semibold uppercase'> Projects</p>
-                <p className='text-[36px] font-bold text-accent/70'>
+                <p className='text-[36px] font-bold text-accent/90'>
                   {' '}
                   <AnimatedCounter from={0} to={69} />
                 </p>
@@ -37,7 +37,7 @@ const Services = () => {
                   {' '}
                   Counter
                 </p>
-                <p className='text-[36px] font-bold text-accent/70'>
+                <p className='text-[36px] font-bold text-accent/90'>
                   <AnimatedCounter from={0} to={420} />
                 </p>
               </div>
@@ -51,7 +51,7 @@ const Services = () => {
             className='flex h-full flex-col gap-8'
           >
             <div className='flex items-center space-x-6 bg-primary p-4'>
-              <p className='text-6xl font-bold text-accent/70'>01</p>
+              <p className='text-6xl font-bold text-accent/90'>01</p>
               <div>
                 <h2 className='mb-2 text-2xl font-bold'>
                   Front-End Development
@@ -64,7 +64,7 @@ const Services = () => {
               </div>
             </div>
             <div className='flex items-center space-x-6 bg-primary p-4'>
-              <p className='text-6xl font-bold text-accent/70'>02</p>
+              <p className='text-6xl font-bold text-accent/90'>02</p>
               <div>
                 <h2 className='mb-2 text-2xl font-bold'>
                   Back-End Development
