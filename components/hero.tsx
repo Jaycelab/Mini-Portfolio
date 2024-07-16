@@ -31,7 +31,7 @@ const Hero = () => {
                 <Link
                   href='mailto:jason.json@hotmail.com'
                   target='_blank'
-                  className='/80 hover:text-lighted flex items-center space-x-2 rounded-full border-2 border-red-700 px-6 py-3 font-medium uppercase text-white transition-all hover:bg-red-700'
+                  className='flex items-center space-x-2 rounded-full border-2 px-6 py-3 font-medium uppercase text-white transition-all hover:border-none hover:bg-accent/90'
                 >
                   <span className='text-sm'>Get in touch</span>
                   <Mail className='size-5' />
