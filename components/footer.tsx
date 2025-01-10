@@ -15,7 +15,7 @@ const Footer = () => {
         <Social />
         <p className='text-l font-semibold uppercase'>
           {' '}
-          ® 2024 <span className='under-line'>Jayce</span>lab
+          ® 2025 <span className='under-line'>Jayce</span>lab
         </p>
       </div>
     </section>
